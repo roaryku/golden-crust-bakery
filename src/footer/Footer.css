@@ -146,6 +146,7 @@ h4{
     .businessLogo{
         width: 80px !important;
         height: auto;
+        margin-top: 20px;
     }
 
     /* Location, Contact and Follow in a row with space between */

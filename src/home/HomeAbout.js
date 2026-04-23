@@ -40,13 +40,13 @@ function HomeAbout () {
                 </a>
             </div>
             <div className='headerHomeAbout'>
-                <img src={image2} className='aboutImageBread' alt='cross' width='300' height="400"/>
+                <img src={image2} className='aboutImageBread' alt='bread' width='300' height="400"/>
             </div>
         </div>
 
         <div className='homeDescriptionContainer homeDescriptionThirdMobile'>
             <div className='headerHomeDescription'>
-            <img src={image3} className='homeDescriptionImage' alt='cross' width='400' height="400"/>
+            <img src={image3} className='homeDescriptionImage' alt='bread' width='400' height="400"/>
             </div>
             <div className='headerHomeDescription'>
                 <h3 className='homePageTitles'>{t ('EnjoyHome')}</h3>

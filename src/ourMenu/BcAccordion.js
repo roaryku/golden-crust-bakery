@@ -32,7 +32,7 @@ const BcAccordion = () => {
         <div className="bodyAccordion">
         <Accordion defaultActiveKey="0" className=" p-3">
             <Accordion.Item eventKey="0" className="item">
-            <h1 className="aboutUsHeader">{t ('The Menu')}</h1>
+            <h2 className="aboutUsHeader">{t ('TheMenu')}</h2>
                 <Accordion.Header className="AccordionNameTitles">{t ('SourdoughArtisan')}</Accordion.Header>
                 <Accordion.Body>
                   <div className="menuCardsRow">

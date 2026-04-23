@@ -365,9 +365,14 @@ form{
   .homeDescriptionContainer{
     display: flex;
     flex-direction: column;
+    align-items: stretch;
+    padding: 0;
+    margin: 0;
   }
   .homeDescriptionThirdMobile{
     flex-direction: column-reverse;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
   .homeDescriptionThirdMobile .headerHomeDescription{
     padding: 14px 18px 0px;
@@ -377,6 +382,7 @@ form{
   .homeDescriptionThirdMobile .headerHomeDescription:first-child{
     padding: 0;
     margin: 0;
+    margin-top: 20px;
   }
   .homeDescriptionThirdMobile .homeDescriptionImage{
     display: block;
