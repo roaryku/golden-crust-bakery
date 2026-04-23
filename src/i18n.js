@@ -11,7 +11,9 @@ i18n
 .use(initReactI18next)
 .init({
 
-fallbackLng: 'uk',
+supportedLngs: ['en', 'uk'],
+nonExplicitSupportedLngs: true,
+fallbackLng: 'en',
 debug: false,
 
 interpolation: {

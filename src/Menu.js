@@ -52,7 +52,7 @@ function Menu({toggleLang}) {
           </Nav>
          
           <Button variant="outline-dark" className='navBtn' onClick={toggleLang}>
-            {i18n.language === 'en'  ? 'Українська' : 'English'}
+            {(i18n.resolvedLanguage || i18n.language || 'en').startsWith('en') ? 'Українська' : 'English'}
             </Button>
         </Navbar.Collapse>
       </Container>
