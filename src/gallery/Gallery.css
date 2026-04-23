@@ -80,11 +80,36 @@ video{
     filter: invert(1);
 }
 
+.eventLocation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+.invitation{
+    font-family: "Lato", sans-serif;
+    color: #112511;
+    text-align: center;
+}
+.invitationInfo{
+    font-family: "Lato", sans-serif;
+    color: rgba(93, 5, 5, 0.709);
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     .galleryRowsCarousel {
         margin: 0 16px;
         padding: 0 42px;
     }
+    .galleryTitle{
+    font-size: 25px;
+    margin-top: 0px;
+}
+.gallerySectionTitle{
+    margin-top: 0px;
+}
 
     .galleryRowsCarousel .carousel-control-prev {
         left: 0;
@@ -92,5 +117,9 @@ video{
 
     .galleryRowsCarousel .carousel-control-next {
         right: 0;
+    }
+
+    .eventLocation{
+        margin: 30px 16px;
     }
 }

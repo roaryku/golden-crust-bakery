@@ -142,13 +142,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.eventLocation{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 100px;
-}
 .iFrameMap{
   width: 500px;
   height: 300px;
@@ -342,17 +335,6 @@ form{
     margin: 5px auto 0;
   }
 }
-.invitation{
-  font-family: "Lato", sans-serif;
-  color: #112511;
-  text-align: center;
-}
-.invitationInfo{
-  font-family: "Lato", sans-serif;
-  color: rgba(93, 5, 5, 0.709);
-  text-align: center;
-}
-
 
 @media all and ( max-width: 800px){
   .homeAboutContainer{
@@ -388,30 +370,38 @@ form{
     flex-direction: column-reverse;
   }
   .homeDescriptionThirdMobile .headerHomeDescription{
-    padding: 14px 18px 8px;
+    padding: 14px 18px 3px;
   }
   .aboutCustomersSection{
     align-items: center;
   }
+  .aboutIntroSection,
+  .aboutCustomersSection{
+    align-items: center;
+    padding: 0;
+    overflow: hidden;
+  }
+  .aboutIntroSection .headerHomeAbout,
   .aboutCustomersSection .headerHomeAbout{
     padding: 20px 16px 10px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
   }
+  .aboutIntroSection .homePageTitles,
+  .aboutIntroSection .aboutEstablish,
+  .aboutIntroSection p,
   .aboutCustomersSection .homePageTitles,
   .aboutCustomersSection .aboutEstablish,
   .aboutCustomersSection p{
     text-align: center;
   }
-  .aboutIntroSection .aboutImageBread{
-    width: min(100vw, 400px);
-    height: auto;
-  }
+  .aboutIntroSection .aboutImageBread,
   .aboutCustomersSection .aboutImageBreadMaking{
-    width: min(100vw, 400px);
+    width: 100%;
+    max-width: 100%;
     height: auto;
-  }
-  .aboutCustomersSection .aboutImageBreadMaking{
-    width: min(100vw, 400px);
-    height: auto;
+    display: block;
   }
   .aboutImageBread{
     width: 300px;
@@ -423,19 +413,19 @@ form{
     width: 100%;
     padding: 10px;
   }
-  .homeBtn{
-    margin-bottom: 30px;
-  }
 
 }
 
-@media all and ( max-width: 500px){
+@media all and ( max-width: 400px){
   .iFrameMap{
     width: 290px;
     height: 200px;
     display: block;
     margin: 0 auto;
   }
+  .header{
+  font-size: 30px;
+}
 }
 
 
